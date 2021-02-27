@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dd29572-f9d3-4de4-baee-d0e428e8dc01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,15 +46,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -59,7 +68,8 @@
       <updated>1614168156193</updated>
       <workItem from="1614168159723" duration="42000" />
       <workItem from="1614349231200" duration="2179000" />
-      <workItem from="1614351441316" duration="6949000" />
+      <workItem from="1614351441316" duration="7789000" />
+      <workItem from="1614436843806" duration="1202000" />
     </task>
     <servers />
   </component>

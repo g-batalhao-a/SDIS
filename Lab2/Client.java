@@ -12,10 +12,11 @@ public class Client {
     private DatagramSocket clientSocket;
     private InetAddress group;
     private static final int DATAPACKETSIZE = 512;
+    private static final Utils utils = new Utils();
 
     public static void main(String[] args) throws IOException{
 
-        if(args.length < 4 || args.length > 5) {
+        if(args.length < 4 || args.length > 5|| !utils.checkValidAddres(args[0])) {
             System.out.println("Usage: java Client <mcast_addr> <mcast_port> <oper> <opnd> *");
             return;
         }

@@ -3,7 +3,6 @@ import java.net.*;
 import java.util.Hashtable;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 
 public class Server{
@@ -14,10 +13,11 @@ public class Server{
     private MulticastSocket multicastSocket;
     private Hashtable<String, String> lookupTable;
     private static final int DATAPACKETSIZE = 512;
+    private static final Utils utils = new Utils();
 
     public static void main(String[] args) throws IOException {
 
-        if(args.length != 3) {
+        if(args.length != 3 ||  !utils.checkValidAddres(args[1])) {
             System.out.println("Usage: java Server <srvc_port> <mcast_addr> <mcast_port>");
             return;
         }
@@ -37,10 +37,18 @@ public class Server{
             }
         }, 0, 1, TimeUnit.SECONDS);
 
-        while(true){
-            server.execute();
+        scheduledExecutorService.execute(() -> {
+            while(true){
+                try {
+                    server.execute();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
 
-        }
+            }
+        });
+
+
 
     }
 
