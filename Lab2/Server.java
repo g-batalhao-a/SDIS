@@ -37,18 +37,9 @@ public class Server{
             }
         }, 0, 1, TimeUnit.SECONDS);
 
-        scheduledExecutorService.execute(() -> {
-            while(true){
-                try {
-                    server.execute();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-
-            }
-        });
-
-
+        while(true){
+            server.execute();
+        }
 
     }
 
