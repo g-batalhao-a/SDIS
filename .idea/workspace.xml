@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1dd29572-f9d3-4de4-baee-d0e428e8dc01" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDIS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SDIS.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -32,25 +31,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lab2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lab3" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\GoncaloAlves\Desktop\FEUP\SDIS\Lab3" />
       <recent name="C:\Users\GoncaloAlves\Desktop\FEUP\SDIS\Lab2" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -68,6 +70,10 @@
       <workItem from="1614349231200" duration="2179000" />
       <workItem from="1614351441316" duration="7789000" />
       <workItem from="1614436843806" duration="1202000" />
+      <workItem from="1614688986260" duration="43000" />
+      <workItem from="1614873916908" duration="7000" />
+      <workItem from="1614938679211" duration="393000" />
+      <workItem from="1614939086209" duration="3134000" />
     </task>
     <servers />
   </component>
