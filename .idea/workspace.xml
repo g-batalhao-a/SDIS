@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dd29572-f9d3-4de4-baee-d0e428e8dc01" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/SSLClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab5/SSLClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/client.keys" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/server.keys" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/truststore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SDIS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SDIS.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,9 +39,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lab3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../comp2021-4b" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -43,20 +51,42 @@
       <recent name="C:\Users\GoncaloAlves\Desktop\FEUP\SDIS\Lab2" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SSLClient" />
+      <module name="SDIS" />
+      <option name="PROGRAM_PARAMETERS" value="127.0.0.1 8001 register bila 238.0.0.0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SSLServer" />
+      <module name="SDIS" />
+      <option name="PROGRAM_PARAMETERS" value="8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Client" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,7 +103,17 @@
       <workItem from="1614688986260" duration="43000" />
       <workItem from="1614873916908" duration="7000" />
       <workItem from="1614938679211" duration="393000" />
-      <workItem from="1614939086209" duration="3134000" />
+      <workItem from="1614939086209" duration="3829000" />
+      <workItem from="1614957988718" duration="40000" />
+      <workItem from="1615415176257" duration="108000" />
+      <workItem from="1615415315986" duration="1259000" />
+      <workItem from="1615417022221" duration="75000" />
+      <workItem from="1615417108205" duration="594000" />
+      <workItem from="1615507720448" duration="118000" />
+      <workItem from="1615543859619" duration="1002000" />
+      <workItem from="1616442874004" duration="61000" />
+      <workItem from="1616443225163" duration="85000" />
+      <workItem from="1619102483600" duration="434000" />
     </task>
     <servers />
   </component>

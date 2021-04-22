@@ -20,14 +20,13 @@ public class SSLServer {
         SSLServerSocket socket;
         SSLServerSocketFactory socketFactory;
 
-        socketFactory = (SSLServerSocketFactory) SSLServerSocketFactory.getDefault();
-        System.setProperty("javax.net.ssl.keyStore","server.keys");
-        System.setProperty("javax.net.ssl.keyStoreType","JKS");
+
+        System.setProperty("javax.net.ssl.keyStore", "serverKeyStore");
         System.setProperty("javax.net.ssl.keyStorePassword","123456");
         System.setProperty("javax.net.ssl.trustStore","truststore");
         System.setProperty("javax.net.ssl.trustStoreType","JKS");
         System.setProperty("javax.net.ssl.trustStorePassword","123456");
-
+        socketFactory = (SSLServerSocketFactory) SSLServerSocketFactory.getDefault();
         socket = (SSLServerSocket) socketFactory.createServerSocket(port);
 
         socket.setNeedClientAuth(true);

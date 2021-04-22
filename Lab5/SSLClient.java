@@ -1,6 +1,5 @@
 import javax.net.ssl.*;
 import java.io.*;
-import java.net.*;
 import java.security.*;
 import java.security.cert.CertificateException;
 import java.util.*;
@@ -19,8 +18,7 @@ public class SSLClient {
 
         SSLSocket clientSocket;
         SSLSocketFactory socketFactory;
-        System.setProperty("javax.net.ssl.keyStore","client.keys");
-        System.setProperty("javax.net.ssl.keyStoreType","JKS");
+        System.setProperty("javax.net.ssl.keyStore", "clientKeyStore");
         System.setProperty("javax.net.ssl.keyStorePassword","123456");
         System.setProperty("javax.net.ssl.trustStore","truststore");
         System.setProperty("javax.net.ssl.trustStoreType","JKS");
